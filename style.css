@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Mono';
+  overflow-x: hidden;
+  background-color: #DDD;
+}
+
+#pi_val {
+  font-weight: bold;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  background-color: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-top: 4px solid #176da4;
+  border-radius: 2px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 > a {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+h2 > a:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: left;
+  width: 100%;
+}
